@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <form action="" method="post" id="questions" name="questions">
+        <fieldset>
+            <legend>What is your favorite color?</legend>
+            <label for="blue">blue <input type="checkbox" name="favcolor" id="blue" value="blue"></label><br>
+            <label for="red">red <input type="checkbox" name="favcolor" id="red" value="red"></label><br>
+            <label for="green">green <input type="checkbox" name="favcolor" id="green" value="green"></label><br>
+        </fieldset><br>
+        <label for="pizza">What is your favorite pizza topping?</label>
+        <select name="pizza" id="pizza" size="8">
+            <optgroup label="veggies">
+            <option value="mushroom">mushroom</option>
+            <option value="onions">onions</option>
+            </optgroup>
+            <optgroup label="meats">
+            <option value="pepperoni">pepperoni</option>
+            <option value="sausage">sausage</option>
+            </optgroup>
+        </select><br>
+        <input type="submit" value="">
+    </form>
+</body>
+</html>
